@@ -1,1 +1,94 @@
-<p>administrador works!</p>
+
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="http://localhost:4200/home">
+      <div class="contenedor">
+        <img src="../../../assets/logoint.jpg" alt="Logo" height="">
+    </div>
+    </a>
+    
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="http://localhost:4200/home">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="http://localhost:4200/ajustes">Cuenta</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="http://localhost:4200/noti">Notificaciones</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="mt-1 p-2 bg-primary text-white rounded">
+  <h1>Registro de Coche</h1>
+  <p>Por favor proporcione los siguientes datos para la asignación de lugar</p>
+</div>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-6 col-xxl-3">
+      <p class="h1">Registro Coche</p>
+      <p class="h4">Nombre Completo</p>
+      <input type="text" class="form-control form-control-sm" placeholder="Apellido Paterno/Apellido Materno/Nombre">
+      <p class="h4">¿Es un vehiculo a motor?</p>
+      <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+        <label class="form-check-label" for="inlineCheckbox1">Si</label>
+        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+        <label class="form-check-label" for="inlineCheckbox2">No</label>
+      <p class="col-md4 mb-7">Matricula</p>
+      <input type="text" class="" id="validationServer05" placeholder="" required>
+      <p class="col-md4 mb-7">Modelo</p>
+        <input type="text" class="" id="validationServer05" placeholder="" required>
+    </div>
+    <div class="col-md-6 col-xxl-9">
+      <p class="">Color</p>
+      <input type="color" class="form-control form-control-color" value="#CCCCCC">
+      <div class="col ">
+        
+      <p class="col-md4 mb-7">Tipo Vehiculo</p>
+      <div class="col ">
+        <input type="text" class="" id="validationServer05" placeholder="" required>
+      <p class="col-md4 mb-7">Lugar Disponible</p>
+      <div class="col ">
+        <input type="text" class="" id="validationServer05" placeholder="" required>
+    </div>
+  </div>
+ 
+</div>
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+  Guardar Cambios
+</button>
+
+<!-- The Modal -->
+<div class="modal" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Los datos dados fueron guardados </h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        Gracias!
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+</div>
+
+
