@@ -7,7 +7,7 @@ import { LoginComponent } from './Componentes/login/login.component';
 import { RegistroComponent } from './Componentes/registro/registro.component';
 import { NotificacionesComponent } from './Componentes/notificaciones/notificaciones.component';
 
-//
+//Rutas de los componentes
 const routes: Routes = [
   {path:'home',component:HomeComponent},
   {path:'',component:HomeComponent},
