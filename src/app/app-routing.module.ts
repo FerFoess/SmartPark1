@@ -9,6 +9,7 @@ import { NotificacionesComponent } from './Componentes/notificaciones/notificaci
 
 const routes: Routes = [
   {path:'home',component:HomeComponent},
+  {path:'',component:HomeComponent},
   {path:'admin',component:AdministradorComponent},
   {path:'ajustes',component:AjustesComponent},
   {path:'login',component:LoginComponent},
