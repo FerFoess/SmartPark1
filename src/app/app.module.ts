@@ -11,6 +11,7 @@ import { AjustesComponent } from './Componentes/ajustes/ajustes.component';
 import { LoginComponent } from './Componentes/login/login.component';
 import { RegistroComponent } from './Componentes/registro/registro.component';
 import { NotificacionesComponent } from './Componentes/notificaciones/notificaciones.component';
+import { PInicioComponent } from './Componentes/inicio/p-inicio.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { NotificacionesComponent } from './Componentes/notificaciones/notificaci
     AjustesComponent,
     LoginComponent,
     RegistroComponent,
-    NotificacionesComponent
+    NotificacionesComponent,
+    PInicioComponent
   ],
   imports: [
     BrowserModule,

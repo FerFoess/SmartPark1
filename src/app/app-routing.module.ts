@@ -6,6 +6,7 @@ import { AjustesComponent } from './Componentes/ajustes/ajustes.component';
 import { LoginComponent } from './Componentes/login/login.component';
 import { RegistroComponent } from './Componentes/registro/registro.component';
 import { NotificacionesComponent } from './Componentes/notificaciones/notificaciones.component';
+import { PInicioComponent } from './Componentes/inicio/p-inicio.component';
 
 //Rutas con cambios
 const routes: Routes = [
@@ -15,7 +16,8 @@ const routes: Routes = [
   {path:'ajustes',component:AjustesComponent},
   {path:'login',component:LoginComponent},
   {path: 'registro',component:RegistroComponent},
-  {path: 'noti',component:NotificacionesComponent}
+  {path: 'noti',component:NotificacionesComponent},
+  {path: 'pantalla',component:PInicioComponent}
   ];
 
 @NgModule({
