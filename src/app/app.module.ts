@@ -12,6 +12,7 @@ import { LoginComponent } from './Componentes/login/login.component';
 import { RegistroComponent } from './Componentes/registro/registro.component';
 import { NotificacionesComponent } from './Componentes/notificaciones/notificaciones.component';
 import { PInicioComponent } from './Componentes/inicio/p-inicio.component';
+import { BloquesComponent } from './Componentes/bloques/bloques.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { PInicioComponent } from './Componentes/inicio/p-inicio.component';
     LoginComponent,
     RegistroComponent,
     NotificacionesComponent,
-    PInicioComponent
+    PInicioComponent,
+    BloquesComponent
   ],
   imports: [
     BrowserModule,

@@ -7,6 +7,7 @@ import { LoginComponent } from './Componentes/login/login.component';
 import { RegistroComponent } from './Componentes/registro/registro.component';
 import { NotificacionesComponent } from './Componentes/notificaciones/notificaciones.component';
 import { PInicioComponent } from './Componentes/inicio/p-inicio.component';
+import { BloquesComponent } from './Componentes/bloques/bloques.component';
 
 //Rutas con cambios
 const routes: Routes = [
@@ -17,7 +18,9 @@ const routes: Routes = [
   {path:'login',component:LoginComponent},
   {path: 'registro',component:RegistroComponent},
   {path: 'noti',component:NotificacionesComponent},
-  {path: 'pantalla',component:PInicioComponent}
+  {path: 'pantalla',component:PInicioComponent},
+  {path: 'bloques',component:BloquesComponent}
+
   ];
 
 @NgModule({
